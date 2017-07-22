@@ -29,11 +29,11 @@ function productdisplay(price) {
             connection.end();
         }
 
-        console.log("flavor\t\tprice");
+        console.log("product\t\tprice");
         console.log('------\t\t-----');
         for (var index = 0; index < res.length; index++) {
             var row = res[index];
-            console.log(row.flavor + "\t" + row.price);
+            console.log(row.product + "\t" + row.price);
             
         }
 
